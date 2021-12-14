@@ -162,3 +162,13 @@
   background-color: white !important;
   border-radius: 0px !important;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e5ebf1; /* ползунок меняет цвет при наведении */
+  border-radius: 20px;
+  height: 5px;
+}
