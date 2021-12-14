@@ -4,7 +4,7 @@ export const Context = createContext();
 
 export const ContextProvider = (props) => {
   const [username, setUsername] = useState("");
-  const [secret, setSecret] = useSecret("");
+  const [secret, setSecret] = useState("");
 
   const value = {
     username,
